@@ -2243,13 +2243,12 @@ footer {
 }
 
 .header-user-actions .btn-login a:hover {
-    background-color: var(--red);
-    box-shadow: 0 0 20px #6fc5ff50;
+    background-color: var(--spanish-gray);
     transform: scale(1.1);
   }
 
   .header-user-actions .btn-login a:active {
-    background-color: var(--red);
+    background-color: var(--spanish-gray);
     transition: all 0.25s;
     -webkit-transition: all 0.25s;
     box-shadow: none;
