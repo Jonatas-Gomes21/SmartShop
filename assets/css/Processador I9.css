@@ -9,6 +9,8 @@
     --light-grayish-blue-clr: hsl(223, 64%, 98%);
     --white-clr: hsl(0, 0%, 100%);
     --black-clr: hsl(0, 0%, 0%);
+    --blue: hsl(219, 79%, 66%);
+    --red: hsl(0, 100%, 50%);
 }
 body{
     font-family: 'Mulish', sans-serif;
@@ -133,7 +135,7 @@ img{
     height: 10vh;
 }
 
-.logo{
+.logo a{
     width: 70%;
 }
 .invisible{ opacity: 0;}
@@ -437,7 +439,7 @@ img{
 
 .product__content .company-name{
     margin-bottom: 1em;
-    color:  hsl(26, 80%, 55%);
+    color: var(--red);
     font-weight: 700;
     font-size: .75rem;
     text-transform: uppercase;
@@ -554,7 +556,7 @@ img{
     background-color: var(--orange-clr);
 }
 @media (hover:hover) and (pointer:fine){
-    .user-container:hover img{ outline: solid 2px var(--orange-clr); }
+    .user-container:hover img{ outline: solid 2px var(--blue); }
     .cart-form__add-btn:hover,
     .cart-form__add-btn:focus,
     .btn-changeValue:focus .icon,
@@ -576,7 +578,7 @@ img{
         color: black; 
         outline: none;
     }
-    .nav-item:hover::after{ background-color: var(--orange-clr); }
+    .nav-item:hover::after{ background-color: var(--blue); }
 }
 @media screen and (min-width: 455px){ 
     .product__slider .image-box,

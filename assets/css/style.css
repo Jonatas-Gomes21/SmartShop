@@ -478,6 +478,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .search-btn:hover { color: var(--blue); }
 
+
 .mobile-bottom-navigation {
   background: var(--white);
   position: fixed;
@@ -547,7 +548,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .menu-top .menu-title {
-  color: var(--salmon-pink);
+  color: var(--red);
   font-size: var(--fs-4);
   font-weight: var(--weight-600);
 }
